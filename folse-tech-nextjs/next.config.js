@@ -14,9 +14,7 @@ const nextConfig = {
   onDemandEntries: {
     maxInactiveAge: 15 * 1000,
     pagesBufferLength: 2
-  },
-  // Amplify compatibility
-  output: 'standalone',
+  }
 };
 
 module.exports = nextConfig;
