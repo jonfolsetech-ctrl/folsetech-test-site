@@ -1,141 +1,99 @@
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+import FeatureCard from "./components/FeatureCard";
+import ProjectCard from "./components/ProjectCard";
+import { Button } from "./components/ui/button";
+
+const features = [
+  { title: "AI-Powered Design", description: "Intelligent design solutions leveraging advanced artificial intelligence technology for competitive advantage" },
+  { title: "Performance Optimization", description: "Lightning-fast load times and SEO-optimized architecture for superior user experience" },
+  { title: "Enterprise Security", description: "Bank-grade security protocols and scalable infrastructure for enterprise-level reliability" },
+  { title: "Responsive Development", description: "Seamless experience across all devices and screen sizes with mobile-first methodology" },
+  { title: "Local Expertise", description: "Direct partnership with experienced team based in Gonzales, Louisiana" },
+  { title: "Data-Driven Strategy", description: "Analytics-focused approach to maximize conversion rates and business outcomes" },
+];
+
+const projects = [
+  { title: "E-Commerce Platform", tech: "React • Next.js • AI", description: "Full-featured online store with AI-powered product recommendations and conversion optimization" },
+  { title: "SaaS Analytics Dashboard", tech: "TypeScript • React • Analytics", description: "Enterprise-grade analytics platform with real-time reporting and performance insights" },
+  { title: "Corporate Website", tech: "Next.js • Google Maps API • Local SEO", description: "High-performance corporate site with location-based services and local search optimization" },
+  { title: "Progressive Web Application", tech: "React Native Web • PWA", description: "Cross-platform application delivering native app experience through the web" },
+];
+
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-slate-900/80 backdrop-blur-md border-b border-slate-700/50 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center font-bold">FT</div>
-            <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Folse Tech</span>
-          </div>
-          <div className="flex gap-8 items-center">
-            <a href="#services" className="text-gray-300 hover:text-blue-400 transition">Services</a>
-            <a href="#portfolio" className="text-gray-300 hover:text-blue-400 transition">Portfolio</a>
-            <a href="#contact" className="text-gray-300 hover:text-blue-400 transition">Contact</a>
-            <button className="px-6 py-2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 rounded-lg font-semibold transition">Get Started</button>
-          </div>
-        </div>
-      </nav>
+    <main className="min-h-screen bg-white">
+      <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center space-y-8">
-            <div className="space-y-4">
-              <h1 className="text-6xl md:text-7xl font-bold tracking-tight">
-                <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">AI-Powered Web Design</span>
-                <br />
-                <span className="text-gray-300">for Modern Businesses</span>
+      <section className="pt-24 md:pt-32 pb-16 md:pb-32 px-4 md:px-6 bg-gradient-to-b from-slate-900 to-blue-900">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center space-y-6 md:space-y-8">
+            <div className="inline-block mb-4 px-3 md:px-4 py-2 bg-amber-500 rounded-full">
+              <span className="text-slate-900 font-semibold text-xs md:text-sm">Enterprise AI Solutions</span>
+            </div>
+            <div className="space-y-4 md:space-y-6">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-tight">
+                AI-Powered Web Design & Development
               </h1>
-              <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-                Transform your online presence with cutting-edge AI web design. Located in Gonzales, Louisiana, serving businesses nationwide.
+              <p className="text-base md:text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed font-light">
+                Enterprise-grade web solutions that drive growth. Strategic partnerships built on performance, security, and innovation. Serving businesses across Louisiana and nationwide.
               </p>
             </div>
-            <div className="flex gap-4 justify-center pt-4">
-              <button className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 rounded-lg font-semibold text-lg transition transform hover:scale-105">
-                Start Your Project
-              </button>
-              <button className="px-8 py-4 border border-gray-600 hover:border-blue-500 rounded-lg font-semibold text-lg transition">
-                View Portfolio
-              </button>
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-6 justify-center pt-4 md:pt-8">
+              <a href="mailto:jon@folsetech.net" className="inline-flex items-center justify-center">
+                <Button size="lg" className="bg-amber-500 text-slate-900 hover:bg-amber-400 font-semibold w-full sm:w-auto">Request Consultation</Button>
+              </a>
+              <Button variant="outline" size="lg" className="border-2 border-amber-500 text-amber-500 hover:bg-amber-500 hover:text-slate-900 w-full sm:w-auto">View Our Work</Button>
             </div>
           </div>
         </div>
       </section>
 
       {/* Features Section */}
-      <section id="services" className="py-20 px-6 bg-slate-800/30">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">Why Choose Folse Tech?</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              { icon: "⚡", title: "AI-Powered Design", desc: "Intelligent design solutions powered by advanced AI technology" },
-              { icon: "🎨", title: "Modern Aesthetics", desc: "Beautiful, responsive designs that work on all devices" },
-              { icon: "⚙️", title: "Fast Performance", desc: "Optimized for speed with lightning-fast load times" },
-              { icon: "🔐", title: "Secure & Scalable", desc: "Enterprise-grade security with scalable infrastructure" },
-              { icon: "📱", title: "Mobile First", desc: "Perfect experience on every screen size" },
-              { icon: "💼", title: "Local Support", desc: "Direct support from our Gonzales, LA team" },
-            ].map((feature, idx) => (
-              <div key={idx} className="bg-slate-800 border border-slate-700 hover:border-blue-500 p-8 rounded-xl transition group hover:shadow-lg hover:shadow-blue-500/20">
-                <div className="text-4xl mb-4 group-hover:scale-110 transition">{feature.icon}</div>
-                <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
-                <p className="text-gray-400">{feature.desc}</p>
-              </div>
+      <section id="services" className="py-16 md:py-32 px-4 md:px-6 bg-white border-t-4 border-amber-500">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12 md:mb-20">
+            <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4">Why Partner With Folsetech</h2>
+            <div className="h-1 w-16 md:w-20 bg-amber-500 mx-auto mb-4 md:mb-6"></div>
+            <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto">Strategic web solutions built for enterprise-level performance, security, and growth.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12">
+            {features.map((feature) => (
+              <FeatureCard key={feature.title} {...feature} />
             ))}
           </div>
         </div>
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="py-20 px-6">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">Recent Projects</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            {[
-              { title: "E-Commerce Platform", tech: "React • Next.js • AI", desc: "Full-featured online store with AI recommendations" },
-              { title: "SaaS Dashboard", tech: "TypeScript • Tailwind • Analytics", desc: "Enterprise analytics platform with real-time data" },
-              { title: "Corporate Website", tech: "Next.js • CMS • SEO", desc: "High-performance corporate site with dynamic content" },
-              { title: "Mobile App Web", tech: "React Native Web • Progressive", desc: "Cross-platform web application for mobile users" },
-            ].map((project, idx) => (
-              <div key={idx} className="bg-slate-800 border border-slate-700 hover:border-purple-500 p-8 rounded-xl transition hover:shadow-lg hover:shadow-purple-500/20 group">
-                <div className="w-full h-48 bg-gradient-to-br from-blue-500/20 to-purple-600/20 rounded-lg mb-6 group-hover:from-blue-500/40 group-hover:to-purple-600/40 transition"></div>
-                <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-blue-400 text-sm font-mono mb-3">{project.tech}</p>
-                <p className="text-gray-400">{project.desc}</p>
-              </div>
+      <section id="portfolio" className="py-16 md:py-32 px-4 md:px-6 bg-gradient-to-b from-slate-50 to-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12 md:mb-20">
+            <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4">Recent Projects</h2>
+            <div className="h-1 w-16 md:w-20 bg-amber-500 mx-auto mb-4 md:mb-6"></div>
+            <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto">Proven results across diverse industries and enterprise clients.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
+            {projects.map((project) => (
+              <ProjectCard key={project.title} {...project} />
             ))}
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-6 bg-gradient-to-r from-blue-600/20 to-purple-600/20 border-y border-slate-700">
-        <div className="max-w-4xl mx-auto text-center space-y-8">
-          <h2 className="text-4xl font-bold">Ready to Transform Your Web Presence?</h2>
-          <p className="text-xl text-gray-300">Let's create something amazing together. Contact us today for a free consultation.</p>
-          <button className="px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 rounded-lg font-semibold text-lg transition transform hover:scale-105">
-            Get Your Free Consultation
-          </button>
+      <section className="py-16 md:py-32 px-4 md:px-6 bg-gradient-to-r from-slate-900 to-blue-900 border-t-4 border-amber-500">
+        <div className="max-w-4xl mx-auto text-center space-y-6 md:space-y-10">
+          <h2 className="text-3xl md:text-5xl font-bold text-white">Ready to Elevate Your Business?</h2>
+          <p className="text-base md:text-xl text-blue-100 max-w-2xl mx-auto font-light">Schedule a confidential consultation with our team. Let's discuss how our AI solutions can transform your competitive advantage.</p>
+          <a href="mailto:jon@folsetech.net">
+            <Button size="lg" className="bg-amber-500 text-slate-900 hover:bg-amber-400 font-semibold text-base md:text-lg px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">Schedule Your Consultation</Button>
+          </a>
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="py-12 px-6 border-t border-slate-700">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
-            <div>
-              <h4 className="font-semibold mb-4 text-white">Folse Tech</h4>
-              <p className="text-gray-400 text-sm">AI-powered web design in Gonzales, Louisiana</p>
-            </div>
-            <div>
-              <h5 className="font-semibold mb-4 text-white">Services</h5>
-              <ul className="space-y-2 text-gray-400 text-sm">
-                <li><a href="#" className="hover:text-blue-400 transition">Web Design</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition">Web Development</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition">AI Solutions</a></li>
-              </ul>
-            </div>
-            <div>
-              <h5 className="font-semibold mb-4 text-white">Company</h5>
-              <ul className="space-y-2 text-gray-400 text-sm">
-                <li><a href="#" className="hover:text-blue-400 transition">About Us</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition">Blog</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition">Careers</a></li>
-              </ul>
-            </div>
-            <div>
-              <h5 className="font-semibold mb-4 text-white">Contact</h5>
-              <ul className="space-y-2 text-gray-400 text-sm">
-                <li>Gonzales, Louisiana</li>
-                <li><a href="mailto:info@folsetech.com" className="hover:text-blue-400 transition">info@folsetech.com</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-slate-700 pt-8 text-center text-gray-400 text-sm">
-            <p>&copy; 2025 Folse Tech. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }

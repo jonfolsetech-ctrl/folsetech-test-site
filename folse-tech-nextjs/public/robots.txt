@@ -1,2 +1,6 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://www.folsetech.net/sitemap.xml
+Sitemap: https://www.folsetech.net/cities/sitemap.xml
+
