@@ -8,11 +8,11 @@ frontend:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: .next
+    baseDirectory: .next/standalone
     files:
       - '**/*'
   cache:
     paths:
       - 'node_modules/**/*'
   output:
-    baseDirectory: .next
+    baseDirectory: out
