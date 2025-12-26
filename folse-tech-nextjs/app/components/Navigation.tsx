@@ -18,7 +18,7 @@ export default function Navigation() {
       <div className="max-w-6xl mx-auto px-4 md:px-6 py-4 md:py-5 flex justify-between items-center">
         <div className="flex items-center gap-2 md:gap-3">
           <Link href="/" className="block w-10 md:w-12 h-10 md:h-12 rounded-lg overflow-hidden">
-            <Image src="/folsetechlogo.png" alt="Folsetech logo" width={48} height={48} className="object-contain" />
+            <Image src="/folsetechlogo.png" alt="Folsetech — AI Solutions" width={64} height={64} className="object-contain" />
           </Link>
           <div className="flex flex-col">
             <span className="text-base md:text-lg font-bold text-white">Folsetech</span>
