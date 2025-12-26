@@ -2,6 +2,8 @@
 
 import PhoneLink from "./PhoneLink";
 import MobileNav from "./MobileNav";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Navigation() {
   const navLinks = [
@@ -15,7 +17,9 @@ export default function Navigation() {
     <nav className="fixed top-0 w-full bg-gradient-to-r from-slate-900 to-blue-900 border-b-4 border-amber-500 z-50 shadow-lg">
       <div className="max-w-6xl mx-auto px-4 md:px-6 py-4 md:py-5 flex justify-between items-center">
         <div className="flex items-center gap-2 md:gap-3">
-          <div className="w-10 md:w-12 h-10 md:h-12 bg-amber-500 rounded-lg flex items-center justify-center text-slate-900 font-bold text-xs md:text-sm">FT</div>
+          <Link href="/" className="block w-10 md:w-12 h-10 md:h-12 rounded-lg overflow-hidden">
+            <Image src="/folsetechlogo.png" alt="Folsetech logo" width={48} height={48} className="object-contain" />
+          </Link>
           <div className="flex flex-col">
             <span className="text-base md:text-lg font-bold text-white">Folsetech</span>
             <span className="text-xs text-amber-300 font-semibold hidden sm:block">AI Solutions</span>
