@@ -9,7 +9,7 @@ const cities = {
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.folsetech.net";
+  const baseUrl = "https://folsetech.net";
   const today = new Date().toISOString().split("T")[0];
 
   const corePages: MetadataRoute.Sitemap = [
