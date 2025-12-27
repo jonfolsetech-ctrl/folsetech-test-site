@@ -1,13 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { useState, lazy, Suspense } from "react";
 import { Metadata } from "next";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import FeatureCard from "./components/FeatureCard";
 import ProjectCard from "./components/ProjectCard";
-import ExpandedFeatureModal from "./components/ExpandedFeatureModal";
 import { Button } from "./components/ui/button";
+
+const ExpandedFeatureModal = lazy(() => import("./components/ExpandedFeatureModal"));
 
 const features = [
   { 
@@ -204,12 +205,14 @@ export default function Home() {
 
       {/* Expanded Feature Modal */}
       {expandedFeature && (
-        <ExpandedFeatureModal
-          isOpen={true}
-          onClose={() => setExpandedFeature(null)}
-          title={features.find(f => f.id === expandedFeature)?.title || ""}
-          content={features.find(f => f.id === expandedFeature)?.fullContent || { tagline: "", description: "", features: [], perfectFor: [], cta: "" }}
-        />
+        <Suspense fallback={null}>
+          <ExpandedFeatureModal
+            isOpen={true}
+            onClose={() => setExpandedFeature(null)}
+            title={features.find(f => f.id === expandedFeature)?.title || ""}
+            content={features.find(f => f.id === expandedFeature)?.fullContent || { tagline: "", description: "", features: [], perfectFor: [], cta: "" }}
+          />
+        </Suspense>
       )}
     </main>
   );
