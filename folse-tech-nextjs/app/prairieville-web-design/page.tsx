@@ -27,9 +27,9 @@ export const metadata: Metadata = {
 };
 
 const breadcrumbItems = [
-  { label: "Home", href: "/" },
-  { label: "Services", href: "/services" },
-  { label: "Prairieville Web Design", href: "/prairieville-web-design" },
+  { label: "Home", url: "/" },
+  { label: "Services", url: "/services" },
+  { label: "Prairieville Web Design", url: "/prairieville-web-design" },
 ];
 
 export default function PrairievillePage() {
