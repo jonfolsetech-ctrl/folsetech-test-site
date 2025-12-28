@@ -134,7 +134,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center space-y-6 md:space-y-8">
             <div className="inline-block mb-4 px-3 md:px-4 py-2 bg-amber-500 rounded-full">
-              <span className="text-slate-900 font-semibold text-xs md:text-sm">Serving All Louisiana River Parishes • Gonzales • Baton Rouge • Prairieville & Beyond</span>
+              <span className="text-slate-900 font-semibold text-xs md:text-sm">Serving Gonzales, Baton Rouge & Prairieville, Louisiana</span>
             </div>
             <div className="space-y-4 md:space-y-6">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-tight">
@@ -172,61 +172,6 @@ export default function Home() {
                 onClick={feature.fullContent ? () => setExpandedFeature(feature.id) : undefined}
               />
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Service Areas Section */}
-      <section className="py-16 md:py-24 px-4 md:px-6 bg-gradient-to-b from-white to-slate-50 border-t-4 border-amber-500">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Serving All Louisiana River Parishes</h2>
-            <div className="h-1 w-16 md:w-20 bg-amber-500 mx-auto mb-4 md:mb-6"></div>
-            <p className="text-base md:text-lg text-slate-600 max-w-3xl mx-auto">While based in South Louisiana, we proudly serve businesses throughout the river parishes region. From Gonzales to Baton Rouge and beyond, we're your local web design and SEO partners.</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-            <div className="p-6 md:p-8 bg-white rounded-lg border border-slate-200 hover:border-amber-500 hover:shadow-lg transition-all">
-              <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-2">Gonzales</h3>
-              <p className="text-slate-600 text-sm md:text-base">Ascension Parish • Web Design • Local SEO • Ecommerce</p>
-            </div>
-            <div className="p-6 md:p-8 bg-white rounded-lg border border-slate-200 hover:border-amber-500 hover:shadow-lg transition-all">
-              <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-2">Baton Rouge</h3>
-              <p className="text-slate-600 text-sm md:text-base">East Baton Rouge Parish • Full-Service Web Solutions • SEO • Digital Marketing</p>
-            </div>
-            <div className="p-6 md:p-8 bg-white rounded-lg border border-slate-200 hover:border-amber-500 hover:shadow-lg transition-all">
-              <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-2">Prairieville</h3>
-              <p className="text-slate-600 text-sm md:text-base">Ascension Parish • Responsive Design • Local SEO • Conversion Optimization</p>
-            </div>
-            <div className="p-6 md:p-8 bg-white rounded-lg border border-slate-200 hover:border-amber-500 hover:shadow-lg transition-all">
-              <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-2">Denham Springs</h3>
-              <p className="text-slate-600 text-sm md:text-base">Livingston Parish • Professional Web Design • Performance Optimization • SEO</p>
-            </div>
-            <div className="p-6 md:p-8 bg-white rounded-lg border border-slate-200 hover:border-amber-500 hover:shadow-lg transition-all">
-              <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-2">St. James Parish</h3>
-              <p className="text-slate-600 text-sm md:text-base">River Parish • Web Design • E-Commerce • Local Search Marketing</p>
-            </div>
-            <div className="p-6 md:p-8 bg-white rounded-lg border border-slate-200 hover:border-amber-500 hover:shadow-lg transition-all">
-              <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-2">St. John Parish</h3>
-              <p className="text-slate-600 text-sm md:text-base">River Parish • Responsive Design • SEO Services • Site Optimization</p>
-            </div>
-            <div className="p-6 md:p-8 bg-white rounded-lg border border-slate-200 hover:border-amber-500 hover:shadow-lg transition-all">
-              <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-2">St. Charles Parish</h3>
-              <p className="text-slate-600 text-sm md:text-base">River Parish • Web Development • Local SEO • Business Growth</p>
-            </div>
-            <div className="p-6 md:p-8 bg-white rounded-lg border border-slate-200 hover:border-amber-500 hover:shadow-lg transition-all">
-              <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-2">Iberville Parish</h3>
-              <p className="text-slate-600 text-sm md:text-base">River Parish • Professional Web Design • SEO • Conversion Strategy</p>
-            </div>
-            <div className="p-6 md:p-8 bg-white rounded-lg border border-slate-200 hover:border-amber-500 hover:shadow-lg transition-all">
-              <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-2">West Baton Rouge</h3>
-              <p className="text-slate-600 text-sm md:text-base">River Parish • Responsive Design • Local Search • Web Solutions</p>
-            </div>
-          </div>
-          <div className="mt-12 md:mt-16 p-6 md:p-8 bg-blue-50 rounded-lg border border-blue-200 text-center">
-            <p className="text-slate-700 text-base md:text-lg mb-4">Wherever your business is located in Louisiana's river parishes, we have the expertise to help you succeed online.</p>
-            <a href="mailto:jon@folsetech.net">
-              <Button className="bg-amber-500 text-slate-900 hover:bg-amber-400 font-semibold">Learn About Our River Parish Services</Button>
-            </a>
           </div>
         </div>
       </section>
