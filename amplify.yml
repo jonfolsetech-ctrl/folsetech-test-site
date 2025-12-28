@@ -4,6 +4,11 @@ frontend:
     preBuild:
       commands:
         - cd folse-tech-nextjs && npm ci
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    baseDirectory: folse-tech-nextjs/out
     files:
       - '**/*'
   cache:
