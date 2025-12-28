@@ -1,0 +1,16 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/api/ai/generate/route": "app/api/ai/generate/route.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/page": "app/page.js",
+  "/cities/sitemap.xml/route": "app/cities/sitemap.xml/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/[city]/page": "app/[city]/page.js",
+  "/services/ecommerce-website-development/page": "app/services/ecommerce-website-development/page.js",
+  "/gonzales-web-design/page": "app/gonzales-web-design/page.js",
+  "/services/seo-services/page": "app/services/seo-services/page.js",
+  "/services/responsive-web-design/page": "app/services/responsive-web-design/page.js",
+  "/baton-rouge-web-design/page": "app/baton-rouge-web-design/page.js"
+}

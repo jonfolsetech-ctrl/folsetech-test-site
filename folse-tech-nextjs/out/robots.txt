@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+Crawl-delay: 1
+Request-rate: 1 per second
+
+Sitemap: https://folsetech.net/sitemap.xml
+Sitemap: https://folsetech.net/cities/sitemap.xml
