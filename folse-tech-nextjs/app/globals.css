@@ -13,6 +13,18 @@
     @apply font-sans antialiased;
     /* Disable tap highlight on mobile */
     -webkit-tap-highlight-color: transparent;
+    /* Improve rendering performance */
+    text-rendering: optimizeSpeed;
+  }
+
+  /* CSS containment for better layout performance */
+  section {
+    contain: layout style;
+  }
+  
+  /* Optimize images */
+  img {
+    content-visibility: auto;
   }
 }
 

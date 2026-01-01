@@ -49,6 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="color-scheme" content="light" />
         <link rel="canonical" href="https://folsetech.net" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
       </head>

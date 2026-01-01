@@ -17,6 +17,7 @@ export default function ProjectCard({ title, tech, description, imageUrl }: Proj
             alt={title}
             className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
             loading="lazy"
+            decoding="async"
           />
         )}
         {!imageUrl && (
