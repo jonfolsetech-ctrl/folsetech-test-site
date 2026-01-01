@@ -7,6 +7,7 @@ interface ExpandedFeatureModalProps {
   content: {
     tagline: string;
     description: string;
+    imageUrl?: string;
     features: { title: string; description: string }[];
     perfectFor: string[];
     cta: string;
@@ -42,6 +43,16 @@ export default function ExpandedFeatureModal({
 
         {/* Content */}
         <div className="p-6 md:p-8">
+          {/* Image */}
+          {content.imageUrl && (
+            <img
+              src={content.imageUrl}
+              alt={title}
+              className="w-full h-64 md:h-80 object-cover rounded-lg mb-8"
+              loading="lazy"
+            />
+          )}
+
           {/* Description */}
           <p className="text-base md:text-lg text-slate-600 font-light mb-8 leading-relaxed">
             {content.description}

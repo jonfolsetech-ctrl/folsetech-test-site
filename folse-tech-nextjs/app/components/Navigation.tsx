@@ -4,8 +4,19 @@ import PhoneLink from "./PhoneLink";
 import MobileNav from "./MobileNav";
 import Image from "next/image";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 export default function Navigation() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const navLinks = [
     { href: "#services", label: "Services" },
     { href: "#portfolio", label: "Portfolio" },
@@ -14,26 +25,36 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="fixed top-0 w-full bg-gradient-to-r from-slate-900 to-blue-900 border-b-4 border-amber-500 z-50 shadow-lg">
-      <div className="max-w-6xl mx-auto px-4 md:px-6 py-4 md:py-5 flex justify-between items-center">
-        <div className="flex items-center gap-2 md:gap-3">
-          <Link href="/" className="block w-10 md:w-12 h-10 md:h-12 rounded-lg overflow-hidden">
-            <Image src="/folsetechlogo.png" alt="Folsetech — AI Solutions" width={64} height={64} className="object-contain" />
-          </Link>
-          <div className="flex flex-col">
-            <span className="text-base md:text-lg font-bold text-white">Folsetech</span>
-            <span className="text-xs text-amber-300 font-semibold hidden sm:block">AI Solutions</span>
+    <nav className={`fixed top-0 w-full bg-white backdrop-blur-md z-50 transition-all duration-300 ${
+      scrolled ? "shadow-lg border-b border-slate-200" : "shadow-sm"
+    }`}>
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-4 flex justify-between items-center">
+        <Link href="/" className="flex items-center gap-3 md:gap-3 group">
+          <div className="w-10 md:w-11 h-10 md:h-11">
+            <Image src="/folsetechlogo.png" alt="Folsetech" width={48} height={48} className="object-contain w-full h-full" />
           </div>
-        </div>
+          <div className="flex flex-col">
+            <span className="text-lg md:text-xl font-bold text-slate-900 tracking-tight">Folsetech</span>
+            <span className="text-xs text-blue-600 font-medium hidden sm:block">AI Solutions LLC</span>
+          </div>
+        </Link>
         
         {/* Desktop Navigation */}
-        <div className="hidden md:flex gap-10 items-center">
+        <div className="hidden md:flex gap-8 items-center">
           {navLinks.map(link => (
-            <a key={link.href} href={link.href} className="text-blue-100 hover:text-amber-400 transition font-medium text-sm uppercase tracking-wide">
+            <a 
+              key={link.href} 
+              href={link.href} 
+              className="text-slate-700 hover:text-blue-600 transition-colors font-medium text-sm relative group"
+            >
               {link.label}
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
             </a>
           ))}
-          <PhoneLink label="Navigation Phone CTA" className="px-6 py-2 bg-amber-500 text-slate-900 hover:bg-amber-400 rounded-lg font-semibold transition" />
+          <PhoneLink 
+            label="Navigation Phone CTA" 
+            className="px-5 py-2.5 bg-blue-600 text-white hover:bg-blue-700 rounded-lg font-medium text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:shadow-blue-600/30"
+          />
         </div>
 
         {/* Mobile Navigation */}

@@ -65,23 +65,29 @@ export default function SEOJsonLd({ city }: { city?: string }) {
       {
         "@type": "LocalBusiness",
         "@id": `${baseUrl}/#localbusiness`,
-        "name": "Folse Tech",
-        "image": `${baseUrl}/folsetechlogo1finalfinal.PNG`,
-        "telephone": "+1-225-313-1914",
-        "email": "jon@folsetech.net",
+        "name": "Folsetech AI Solutions LLC",
+        "image": `${baseUrl}/logo.png`,
         "url": baseUrl,
+        "email": "jon@folsetech.net",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": city || "Gonzales",
           "addressRegion": "LA",
           "addressCountry": "US"
         },
-        "areaServed": serviceAreas,
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5",
-          "reviewCount": "10"
-        }
+        "areaServed": [
+          "Gonzales LA",
+          "Prairieville LA",
+          "Baton Rouge LA",
+          "New Orleans LA",
+          "LaPlace LA",
+          "Denham Springs LA"
+        ],
+        "serviceType": [
+          "AI Web Design",
+          "SEO Optimization",
+          "Local SEO",
+          "E-Commerce Web Development"
+        ]
       },
       {
         "@type": "ProfessionalService",

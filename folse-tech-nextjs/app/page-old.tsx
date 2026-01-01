@@ -4,12 +4,6 @@ import Footer from "./components/Footer";
 import { Button } from "./components/ui/button";
 import HomeClient from "./components/HomeClient";
 
-export const metadata: Metadata = {
-  title: "Folsetech AI Solutions LLC - AI Web Design & SEO | Louisiana",
-  description: "Folsetech AI Solutions LLC specializes in AI-powered web design and full SEO integration for Louisiana businesses. We build fast, responsive, search-optimized websites designed to rank on Google and generate real traffic. Serving Gonzales, Prairieville, Baton Rouge, New Orleans, LaPlace, and Denham Springs.",
-  keywords: ["AI web design", "Louisiana web design", "local SEO", "Gonzales LA", "Baton Rouge", "responsive design", "SEO optimization", "web development Louisiana"],
-};
-
 const features = [
   { 
     title: "Responsive Web Design", 
@@ -52,7 +46,6 @@ const features = [
     fullContent: {
       tagline: "Local Search • Organic Growth • Measurable Results",
       description: "Organic search is where most website traffic comes from. If your business isn't ranking for the keywords your customers search for, you're losing sales. Our comprehensive SEO services combine technical optimization, strategic content creation, and local search focus to increase rankings and drive qualified traffic.",
-      imageUrl: "https://images.unsplash.com/photo-1460925895917-adf4e5f2a9f6?w=800&h=500&fit=crop",
       features: [
         { title: "Technical SEO", description: "Optimize site speed, mobile performance, structure, and crawlability for search engine success." },
         { title: "Local Search Optimization", description: "Dominate 'near me' searches and local directories. Critical for businesses in Gonzales, Baton Rouge, Prairieville." },
@@ -127,73 +120,108 @@ const projects = [
   { title: "Local Business Growth", tech: "SEO • Responsive Design • Local Optimization", description: "Integrated web and SEO solution helping Prairieville business dominate local search results" },
 ];
 
+export const metadata: Metadata = {
+  title: "Folse Tech - AI Web Design & Development | Gonzales, Louisiana",
+  description: "Professional AI-powered web design, development, and digital solutions in Gonzales, Louisiana. Enterprise security, performance optimization, and responsive development for businesses nationwide.",
+  keywords: ["web design", "web development", "AI design", "Gonzales Louisiana", "responsive design", "SEO optimization", "enterprise security"],
+};
+
 export default function Home() {
-  return (
     <main className="min-h-screen bg-white">
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 md:pt-40 pb-20 md:pb-32 px-4 md:px-6 bg-gradient-to-br from-slate-50 via-blue-50 to-slate-50 relative overflow-hidden">
-        {/* Background decoration */}
-        <div className="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] -z-10"></div>
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-100 rounded-full blur-3xl opacity-30 -z-10"></div>
-        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-purple-100 rounded-full blur-3xl opacity-30 -z-10"></div>
-        
+      <section className="pt-24 md:pt-32 pb-16 md:pb-32 px-4 md:px-6 bg-gradient-to-b from-slate-900 to-blue-900">
         <div className="max-w-6xl mx-auto">
           <div className="text-center space-y-6 md:space-y-8">
-            <div className="inline-flex items-center gap-2 px-4 md:px-5 py-2 bg-white border border-blue-200 rounded-full shadow-sm">
-              <div className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></div>
-              <span className="text-slate-700 font-medium text-xs md:text-sm">Serving Louisiana Businesses</span>
+            <div className="inline-block mb-4 px-3 md:px-4 py-2 bg-amber-500 rounded-full">
+              <span className="text-slate-900 font-semibold text-xs md:text-sm">Serving Gonzales, Baton Rouge & Prairieville, Louisiana</span>
             </div>
             <div className="space-y-4 md:space-y-6">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-slate-900 leading-tight">
-                AI-Powered Web Design <br className="hidden md:block"/>
-                <span className="text-blue-600">& Full SEO Integration</span>
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-tight">
+                Premium Web Design & Development for Louisiana Businesses
               </h1>
-              <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                We build fast, responsive, search-optimized websites designed to rank on Google and generate real traffic. Serving businesses in Gonzales, Prairieville, Baton Rouge, New Orleans, LaPlace, and Denham Springs.
+              <p className="text-base md:text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed font-light">
+                Professional responsive web design, ecommerce solutions, and full-service SEO optimization. Help your Louisiana business attract more customers and increase online revenue.
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center pt-4 md:pt-8">
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-6 justify-center pt-4 md:pt-8">
               <a href="mailto:jon@folsetech.net" className="inline-flex items-center justify-center">
-                <Button size="lg" className="bg-blue-600 text-white hover:bg-blue-700 font-medium w-full sm:w-auto shadow-lg shadow-blue-600/30 hover:shadow-xl hover:shadow-blue-600/40 transition-all duration-300">
-                  Schedule Free Consultation
-                </Button>
+                <Button size="lg" className="bg-amber-500 text-slate-900 hover:bg-amber-400 font-semibold w-full sm:w-auto">Schedule Free Consultation</Button>
               </a>
               <a href="#services" className="inline-flex items-center justify-center">
-                <Button variant="outline" size="lg" className="border-2 border-slate-300 text-slate-700 hover:bg-slate-50 hover:border-slate-400 w-full sm:w-auto font-medium transition-all duration-300">
-                  View Services
-                </Button>
+                <Button variant="outline" size="lg" className="border-2 border-amber-500 text-amber-500 hover:bg-amber-500 hover:text-slate-900 w-full sm:w-auto">View Services</Button>
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      <HomeClient features={features} projects={projects} />
+      {/* Features Section */}
+      <section id="services" className="py-16 md:py-32 px-4 md:px-6 bg-white border-t-4 border-amber-500">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12 md:mb-20">
+            <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4">Web Design & Development Services</h2>
+            <div className="h-1 w-16 md:w-20 bg-amber-500 mx-auto mb-4 md:mb-6"></div>
+            <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto">Premium web solutions designed to help your Louisiana business establish credibility, increase visibility, and grow revenue online.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12">
+            {features.map((feature) => (
+              <FeatureCard 
+                key={feature.title} 
+                {...feature} 
+                onClick={feature.fullContent ? () => setExpandedFeature(feature.id) : undefined}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Portfolio Section */}
+      <section id="portfolio" className="py-16 md:py-32 px-4 md:px-6 bg-gradient-to-b from-slate-50 to-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12 md:mb-20">
+            <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4">Louisiana Business Success Stories</h2>
+            <div className="h-1 w-16 md:w-20 bg-amber-500 mx-auto mb-4 md:mb-6"></div>
+            <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto">Real results for businesses in Gonzales, Baton Rouge, and Prairieville. Responsive web design and SEO that increase visibility and drive growth.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
+            {projects.map((project) => (
+              <ProjectCard key={project.title} {...project} />
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-4 md:px-6 bg-gradient-to-br from-blue-600 to-blue-700 relative overflow-hidden">
-        <div className="absolute inset-0 bg-grid-white/[0.05] -z-10"></div>
-        <div className="max-w-4xl mx-auto text-center space-y-6 md:space-y-8">
+      <section className="py-16 md:py-32 px-4 md:px-6 bg-gradient-to-r from-slate-900 to-blue-900 border-t-4 border-amber-500">
+        <div className="max-w-4xl mx-auto text-center space-y-6 md:space-y-10">
           <h2 className="text-3xl md:text-5xl font-bold text-white">Ready to Transform Your Louisiana Business Online?</h2>
-          <p className="text-base md:text-xl text-blue-100 max-w-2xl mx-auto leading-relaxed">Schedule a free consultation with our team. We'll assess your current online presence, discuss your business goals, and recommend a tailored web design and SEO strategy that drives real results.</p>
+          <p className="text-base md:text-xl text-blue-100 max-w-2xl mx-auto font-light">Schedule a free consultation with our team. We'll assess your current online presence, discuss your business goals, and recommend a tailored web design and SEO strategy that drives real results.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <a href="mailto:jon@folsetech.net">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50 font-medium text-base md:text-lg px-8 md:px-10 py-5 md:py-6 w-full sm:w-auto shadow-xl hover:shadow-2xl transition-all duration-300">
-                Schedule Your Free Consultation
-              </Button>
+              <Button size="lg" className="bg-amber-500 text-slate-900 hover:bg-amber-400 font-semibold text-base md:text-lg px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">Schedule Your Free Consultation</Button>
             </a>
             <a href="tel:+1-225-000-0000">
-              <Button variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 font-medium text-base md:text-lg px-8 md:px-10 py-5 md:py-6 w-full sm:w-auto transition-all duration-300">
-                Call Us Today
-              </Button>
+              <Button variant="outline" size="lg" className="border-2 border-amber-500 text-amber-500 hover:bg-amber-500 hover:text-slate-900 font-semibold text-base md:text-lg px-8 md:px-12 py-4 md:py-6 w-full sm:w-auto">Call Us Today</Button>
             </a>
           </div>
         </div>
       </section>
 
       <Footer />
+
+      {/* Expanded Feature Modal */}
+      {expandedFeature && (
+        <Suspense fallback={null}>
+          <ExpandedFeatureModal
+            isOpen={true}
+            onClose={() => setExpandedFeature(null)}
+            title={features.find(f => f.id === expandedFeature)?.title || ""}
+            content={features.find(f => f.id === expandedFeature)?.fullContent || { tagline: "", description: "", features: [], perfectFor: [], cta: "" }}
+          />
+        </Suspense>
+      )}
     </main>
   );
 }

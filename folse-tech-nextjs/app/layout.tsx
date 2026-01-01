@@ -5,9 +5,9 @@ import GoogleAnalytics from "./components/GoogleAnalytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://folsetech.net"),
-  title: "Folse Tech - AI Web Design & Development | Gonzales, Louisiana",
-  description: "Professional AI-powered web design, development, and digital solutions in Gonzales, Louisiana. Enterprise security, performance optimization, and responsive development for businesses nationwide.",
-  keywords: ["web design", "web development", "AI design", "Gonzales Louisiana", "responsive design", "SEO optimization", "enterprise security"],
+  title: "Folsetech AI Solutions LLC - AI Web Design & SEO | Louisiana",
+  description: "Folsetech AI Solutions LLC specializes in AI-powered web design and full SEO integration for Louisiana businesses. We build fast, responsive, search-optimized websites designed to rank on Google and generate real traffic. Serving Gonzales, Prairieville, Baton Rouge, New Orleans, LaPlace, and Denham Springs.",
+  keywords: ["AI web design", "Louisiana web design", "local SEO Louisiana", "Gonzales LA", "Baton Rouge web design", "responsive design", "SEO optimization", "New Orleans web design"],
   authors: [{ name: "Folse Tech" }],
   creator: "Folse Tech",
   publisher: "Folse Tech",
@@ -26,14 +26,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://folsetech.net",
-    title: "Folse Tech - AI Web Design & Development",
-    description: "Professional AI-powered web design and development services in Gonzales, Louisiana",
-    siteName: "Folse Tech",
+    title: "Folsetech AI Solutions LLC - AI Web Design & SEO | Louisiana",
+    description: "AI-powered web design and full SEO integration for Louisiana businesses. Fast, responsive, search-optimized websites that rank on Google.",
+    siteName: "Folsetech AI Solutions LLC",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Folse Tech - AI Web Design & Development",
-    description: "Professional AI-powered web design and development services",
+    title: "Folsetech AI Solutions LLC - AI Web Design & SEO | Louisiana",
+    description: "AI-powered web design and full SEO integration for Louisiana businesses. Contact jon@folsetech.net for AI web design and local SEO services.",
   },
   verification: {
     google: "your-google-verification-code",
