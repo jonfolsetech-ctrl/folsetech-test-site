@@ -1,89 +1,20 @@
 {
   "pages": {
-    "/_not-found": [
-      "static/chunks/webpack-1cc72f408526d7c8.js",
-      "static/chunks/fd9d1056-79e8801e07ad710f.js",
-      "static/chunks/472-c39860b30506f0bc.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/app/_not-found-d036149e510a9b48.js"
-    ],
     "/layout": [
-      "static/chunks/webpack-1cc72f408526d7c8.js",
-      "static/chunks/fd9d1056-79e8801e07ad710f.js",
-      "static/chunks/472-c39860b30506f0bc.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/css/1f6a23a392219898.css",
-      "static/chunks/app/layout-03cb87880650ad6e.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/page": [
-      "static/chunks/webpack-1cc72f408526d7c8.js",
-      "static/chunks/fd9d1056-79e8801e07ad710f.js",
-      "static/chunks/472-c39860b30506f0bc.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/20-575687043d9a3484.js",
-      "static/chunks/14-a6f808b6dc283b03.js",
-      "static/chunks/app/page-98e3b77ceafca421.js"
-    ],
-    "/blog/[slug]/page": [
-      "static/chunks/webpack-1cc72f408526d7c8.js",
-      "static/chunks/fd9d1056-79e8801e07ad710f.js",
-      "static/chunks/472-c39860b30506f0bc.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/app/blog/[slug]/page-7e1f7f49ab229f6a.js"
-    ],
-    "/blog/page": [
-      "static/chunks/webpack-1cc72f408526d7c8.js",
-      "static/chunks/fd9d1056-79e8801e07ad710f.js",
-      "static/chunks/472-c39860b30506f0bc.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/app/blog/page-543b167695b5a548.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ],
     "/[city]/page": [
-      "static/chunks/webpack-1cc72f408526d7c8.js",
-      "static/chunks/fd9d1056-79e8801e07ad710f.js",
-      "static/chunks/472-c39860b30506f0bc.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/app/[city]/page-fdbe32344b062d67.js"
-    ],
-    "/services/ecommerce-website-development/page": [
-      "static/chunks/webpack-1cc72f408526d7c8.js",
-      "static/chunks/fd9d1056-79e8801e07ad710f.js",
-      "static/chunks/472-c39860b30506f0bc.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/20-575687043d9a3484.js",
-      "static/chunks/app/services/ecommerce-website-development/page-038cead7065c5df7.js"
-    ],
-    "/gonzales-web-design/page": [
-      "static/chunks/webpack-1cc72f408526d7c8.js",
-      "static/chunks/fd9d1056-79e8801e07ad710f.js",
-      "static/chunks/472-c39860b30506f0bc.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/20-575687043d9a3484.js",
-      "static/chunks/app/gonzales-web-design/page-e2ba3ddab5e74706.js"
-    ],
-    "/services/seo-services/page": [
-      "static/chunks/webpack-1cc72f408526d7c8.js",
-      "static/chunks/fd9d1056-79e8801e07ad710f.js",
-      "static/chunks/472-c39860b30506f0bc.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/20-575687043d9a3484.js",
-      "static/chunks/app/services/seo-services/page-646894ffd8aaca38.js"
-    ],
-    "/services/responsive-web-design/page": [
-      "static/chunks/webpack-1cc72f408526d7c8.js",
-      "static/chunks/fd9d1056-79e8801e07ad710f.js",
-      "static/chunks/472-c39860b30506f0bc.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/20-575687043d9a3484.js",
-      "static/chunks/app/services/responsive-web-design/page-874046819b3ca48d.js"
-    ],
-    "/baton-rouge-web-design/page": [
-      "static/chunks/webpack-1cc72f408526d7c8.js",
-      "static/chunks/fd9d1056-79e8801e07ad710f.js",
-      "static/chunks/472-c39860b30506f0bc.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/20-575687043d9a3484.js",
-      "static/chunks/app/baton-rouge-web-design/page-81dbbd7b379a2b1f.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[city]/page.js"
     ]
   }
 }

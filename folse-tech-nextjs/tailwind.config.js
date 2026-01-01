@@ -8,4 +8,9 @@ module.exports = {
     } 
   },
   plugins: [],
+  safelist: [],
+  corePlugins: {
+    preflight: true,
+  },
+  minify: true,
 };

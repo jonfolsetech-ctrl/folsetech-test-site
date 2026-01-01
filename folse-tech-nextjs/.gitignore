@@ -3,6 +3,10 @@ node_modules/
 .pnp
 
 # Build
+.next/
+out/
+dist/
+*.tsbuildinfo
 
 # Environment
 .env.local
