@@ -122,7 +122,7 @@ const features = [
 
 const projects = [
   { title: "E-Commerce Platform", tech: "Responsive Design • SEO • Payment Integration • Inventory Management • Analytics", description: "Complete e-commerce solution for Louisiana retailer featuring mobile-optimized responsive design, integrated secure payment processing, real-time inventory management, and comprehensive analytics. Implemented technical SEO, keyword optimization, and structured data to improve search rankings and drive qualified traffic to product pages, resulting in increased visibility and sales.", imageUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop" },
-  { title: "Service Provider Website", tech: "Responsive Design • Local SEO • Lead Generation", description: "Professional website for Baton Rouge service business with increased local visibility and customer inquiries", imageUrl: "https://images.unsplash.com/photo-1460925895917-adf4e5f2a9f6?w=800&h=500&fit=crop" },
+  { title: "Service Provider Website", tech: "Responsive Design • Local SEO • Lead Generation", description: "Professional website for Baton Rouge service business with increased local visibility and customer inquiries", imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=500&fit=crop" },
   { title: "Professional Services Site", tech: "Responsive Design • Conversion Optimization", description: "High-converting website for Gonzales professional services with clear messaging and easy contact options" },
   { title: "Local Business Growth", tech: "SEO • Responsive Design • Local Optimization", description: "Integrated web and SEO solution helping Prairieville business dominate local search results" },
 ];
