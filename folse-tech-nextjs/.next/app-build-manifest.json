@@ -1,152 +1,20 @@
 {
   "pages": {
-    "/_not-found": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/app/_not-found-770b19aabaf41587.js"
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/css/ac66aaaf2f22717d.css",
-      "static/chunks/app/layout-1b4cd021968e66f3.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/[city]/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/app/[city]/page-ad6e45b53a812c8d.js"
-    ],
-    "/baton-rouge-louisiana/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/758-887f1e1261291cbf.js",
-      "static/chunks/app/baton-rouge-louisiana/page-70c40294bb35efd8.js"
-    ],
-    "/blog/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/app/blog/page-8c83d83a35aad0c6.js"
-    ],
-    "/blog/[slug]/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/app/blog/[slug]/page-b57958a7771edbf9.js"
-    ],
-    "/denham-springs-louisiana/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/758-887f1e1261291cbf.js",
-      "static/chunks/app/denham-springs-louisiana/page-075cf03fb57eeb34.js"
-    ],
-    "/baton-rouge-web-design/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/758-887f1e1261291cbf.js",
-      "static/chunks/app/baton-rouge-web-design/page-e793dbdc11d93116.js"
-    ],
-    "/laplace-louisiana/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/758-887f1e1261291cbf.js",
-      "static/chunks/app/laplace-louisiana/page-d7840aa1a5d57b6e.js"
-    ],
-    "/new-orleans-louisiana/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/758-887f1e1261291cbf.js",
-      "static/chunks/app/new-orleans-louisiana/page-f82655249dd0d6f5.js"
-    ],
-    "/prairieville-louisiana/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/758-887f1e1261291cbf.js",
-      "static/chunks/app/prairieville-louisiana/page-30e0f42f2e68ad21.js"
-    ],
-    "/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/758-887f1e1261291cbf.js",
-      "static/chunks/app/page-8b4a3ce49395f61e.js"
-    ],
-    "/gonzales-louisiana/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/758-887f1e1261291cbf.js",
-      "static/chunks/app/gonzales-louisiana/page-5268ed76822c1985.js"
-    ],
-    "/prairieville-web-design/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/758-887f1e1261291cbf.js",
-      "static/chunks/app/prairieville-web-design/page-cc2798023101c056.js"
-    ],
-    "/services/responsive-web-design/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/758-887f1e1261291cbf.js",
-      "static/chunks/app/services/responsive-web-design/page-57d92679000908bc.js"
-    ],
-    "/gonzales-web-design/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/758-887f1e1261291cbf.js",
-      "static/chunks/app/gonzales-web-design/page-86966763ab2202a2.js"
-    ],
-    "/services/seo-services/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/758-887f1e1261291cbf.js",
-      "static/chunks/app/services/seo-services/page-0661a7b013a236b5.js"
-    ],
-    "/services/ecommerce-website-development/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/758-887f1e1261291cbf.js",
-      "static/chunks/app/services/ecommerce-website-development/page-63c7a19a4b04a753.js"
-    ],
-    "/web-design-louisiana/page": [
-      "static/chunks/webpack-5a8e4c4dcfaed099.js",
-      "static/chunks/fd9d1056-7872e1c918022f36.js",
-      "static/chunks/472-10077ed6460bafb1.js",
-      "static/chunks/main-app-2eb707ffd1117161.js",
-      "static/chunks/758-887f1e1261291cbf.js",
-      "static/chunks/app/web-design-louisiana/page-21d3fafd9e71a9e5.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[city]/page.js"
     ]
   }
 }

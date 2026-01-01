@@ -31,13 +31,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-4 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-3 md:gap-3 group">
           <div className="w-10 md:w-11 h-10 md:h-11">
-            <Image 
-              src="/folsetechlogo.png" 
-              alt="Folsetech" 
-              width={48} 
-              height={48} 
-              className="object-contain w-full h-full brightness-0 saturate-100 invert-[.35] sepia-[1] saturate-[15] hue-rotate-[190deg] brightness-[.95]" 
-            />
+            <Image src="/folsetechlogo.png" alt="Folsetech" width={48} height={48} className="object-contain w-full h-full" />
           </div>
           <div className="flex flex-col">
             <span className="text-lg md:text-xl font-bold text-slate-900 tracking-tight">Folsetech</span>
