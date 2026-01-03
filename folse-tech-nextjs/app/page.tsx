@@ -133,7 +133,7 @@ export default function Home() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 md:pt-40 pb-20 md:pb-32 px-4 md:px-6 bg-gradient-to-br from-blue-200 via-blue-100 to-blue-200 relative overflow-hidden">
+      <section className="pt-32 md:pt-40 pb-20 md:pb-32 px-4 md:px-6 bg-gradient-to-br from-blue-600 via-blue-600 to-yellow-500 relative overflow-hidden">
         {/* Background decoration */}
         <div className="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] -z-10"></div>
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-100 rounded-full blur-3xl opacity-30 -z-10"></div>
@@ -173,7 +173,7 @@ export default function Home() {
       <HomeClient features={features} projects={projects} />
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-4 md:px-6 bg-gradient-to-br from-blue-600 to-blue-700 relative overflow-hidden">
+      <section className="py-16 md:py-24 px-4 md:px-6 bg-gradient-to-br from-blue-600 via-blue-600 to-yellow-500 relative overflow-hidden">
         <div className="absolute inset-0 bg-grid-white/[0.05] -z-10"></div>
         <div className="max-w-4xl mx-auto text-center space-y-6 md:space-y-8">
           <h2 className="text-3xl md:text-5xl font-bold text-white">Ready to Transform Your Louisiana Business Online?</h2>
