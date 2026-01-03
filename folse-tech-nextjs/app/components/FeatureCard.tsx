@@ -8,11 +8,11 @@ export default function FeatureCard({ title, description, onClick }: FeatureCard
   return (
     <div
       onClick={onClick}
-      className={`group p-6 md:p-8 bg-white border border-slate-200 rounded-2xl hover:border-blue-300 transition-all duration-300 ${
-        onClick ? "cursor-pointer hover:shadow-xl hover:shadow-blue-100/50 hover:-translate-y-1" : "hover:shadow-lg"
+      className={`group p-6 md:p-8 bg-white border border-slate-200 rounded-2xl hover:border-yellow-300 transition-all duration-300 ${
+        onClick ? "cursor-pointer hover:shadow-xl hover:shadow-yellow-100/50 hover:-translate-y-1" : "hover:shadow-lg"
       }`}
     >
-      <div className="w-12 md:w-14 h-12 md:h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl mb-4 md:mb-5 flex items-center justify-center flex-shrink-0 group-hover:from-blue-600 group-hover:to-blue-700 transition-all duration-300">
+      <div className="w-12 md:w-14 h-12 md:h-14 bg-gradient-to-br from-blue-500 to-yellow-500 rounded-xl mb-4 md:mb-5 flex items-center justify-center flex-shrink-0 group-hover:from-blue-600 group-hover:to-yellow-400 transition-all duration-300">
         <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>

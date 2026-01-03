@@ -35,7 +35,7 @@ export default function Navigation() {
           </div>
           <div className="flex flex-col">
             <span className="text-lg md:text-xl font-bold text-slate-900 tracking-tight">Folsetech</span>
-            <span className="text-xs text-blue-600 font-medium hidden sm:block">AI Solutions LLC</span>
+            <span className="text-xs bg-gradient-to-r from-blue-600 to-yellow-500 bg-clip-text text-transparent font-medium hidden sm:block">AI Solutions LLC</span>
           </div>
         </Link>
         
@@ -48,12 +48,12 @@ export default function Navigation() {
               className="text-slate-700 hover:text-blue-600 transition-colors font-medium text-sm relative group"
             >
               {link.label}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-yellow-500 group-hover:w-full transition-all duration-300"></span>
             </a>
           ))}
           <PhoneLink 
             label="Navigation Phone CTA" 
-            className="px-5 py-2.5 bg-blue-600 text-white hover:bg-blue-700 rounded-lg font-medium text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:shadow-blue-600/30"
+            className="px-5 py-2.5 bg-gradient-to-r from-blue-600 to-yellow-500 text-white hover:shadow-lg hover:shadow-blue-600/30 rounded-lg font-medium text-sm transition-all duration-300 shadow-md hover:opacity-90"
           />
         </div>
 

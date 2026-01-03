@@ -133,7 +133,7 @@ export default function Home() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 md:pt-40 pb-20 md:pb-32 px-4 md:px-6 bg-gradient-to-br from-slate-50 via-blue-50 to-slate-50 relative overflow-hidden">
+      <section className="pt-32 md:pt-40 pb-20 md:pb-32 px-4 md:px-6 bg-gradient-to-br from-blue-200 via-blue-100 to-blue-200 relative overflow-hidden">
         {/* Background decoration */}
         <div className="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] -z-10"></div>
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-100 rounded-full blur-3xl opacity-30 -z-10"></div>
@@ -148,7 +148,7 @@ export default function Home() {
             <div className="space-y-4 md:space-y-6">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-slate-900 leading-tight">
                 AI-Powered Web Design <br className="hidden md:block"/>
-                <span className="text-blue-600">& Full SEO Integration</span>
+                <span className="bg-gradient-to-r from-blue-600 to-yellow-500 bg-clip-text text-transparent">& Full SEO Integration</span>
               </h1>
               <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
                 We build fast, responsive, search-optimized websites designed to rank on Google and generate real traffic. Serving businesses in Gonzales, Prairieville, Baton Rouge, New Orleans, LaPlace, and Denham Springs.
