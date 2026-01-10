@@ -146,11 +146,11 @@ export default function Home() {
               <span className="text-slate-700 font-medium text-xs md:text-sm">Serving Louisiana Businesses</span>
             </div>
             <div className="space-y-4 md:space-y-6">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-slate-900 leading-tight">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-tight drop-shadow-lg">
                 AI-Powered Web Design <br className="hidden md:block"/>
-                <span className="bg-gradient-to-r from-blue-600 to-yellow-500 bg-clip-text text-transparent">& Full SEO Integration</span>
+                <span className="bg-gradient-to-r from-yellow-300 to-blue-100 bg-clip-text text-transparent drop-shadow-lg">& Full SEO Integration</span>
               </h1>
-              <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+              <p className="text-lg md:text-xl text-white max-w-3xl mx-auto leading-relaxed drop-shadow-md">
                 We build fast, responsive, search-optimized websites designed to rank on Google and generate real traffic. Serving businesses in Gonzales, Prairieville, Baton Rouge, New Orleans, LaPlace, and Denham Springs.
               </p>
             </div>

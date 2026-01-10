@@ -1,5 +1,0 @@
-{
-  "buildCommand": "cd folse-tech-nextjs && npm run build",
-  "outputDirectory": "folse-tech-nextjs/out",
-  "framework": "Next.js"
-}
