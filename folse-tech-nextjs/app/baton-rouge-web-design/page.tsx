@@ -30,17 +30,17 @@ export default function BatonRougeWebDesignPage() {
       <section className="px-4 md:px-6 py-16 md:py-28 bg-gradient-to-b from-slate-900 to-blue-900">
         <div className="max-w-4xl mx-auto">
           <div className="text-center space-y-6 md:space-y-8">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-slate-100 leading-tight">
               Web Design Baton Rouge LA — Premium Responsive Websites for Growing Businesses
             </h1>
-            <p className="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-brand-cyan-50 max-w-3xl mx-auto leading-relaxed">
               Folse Tech specializes in professional web design Baton Rouge LA for ambitious businesses ready to establish powerful online presence. We deliver responsive websites, ecommerce platforms, and comprehensive SEO services that increase visibility, attract qualified customers, and drive measurable business growth.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
-              <a href="mailto:jon@folsetech.net" className="inline-block px-8 py-3 bg-amber-500 text-slate-900 font-semibold rounded-lg hover:bg-amber-400 transition-colors">
+              <a href="mailto:jon@folsetech.net" className="inline-block px-8 py-3 bg-brand-gold-500 text-slate-900 font-semibold rounded-lg hover:bg-brand-gold-400 transition-colors">
                 Schedule Free Consultation
               </a>
-              <a href="#services" className="inline-block px-8 py-3 border-2 border-amber-500 text-amber-500 font-semibold rounded-lg hover:bg-amber-500 hover:text-slate-900 transition-colors">
+              <a href="#services" className="inline-block px-8 py-3 border-2 border-brand-gold-500 text-brand-gold-500 font-semibold rounded-lg hover:bg-brand-gold-500 hover:text-slate-900 transition-colors">
                 Explore Services
               </a>
             </div>
@@ -49,9 +49,9 @@ export default function BatonRougeWebDesignPage() {
       </section>
 
       {/* Expertise Section */}
-      <section className="px-4 md:px-6 py-16 md:py-24 bg-white border-t-4 border-amber-500">
+      <section className="px-4 md:px-6 py-16 md:py-24 bg-brand-navy-800 border-t-4 border-brand-gold-500">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-4 text-center">
             Why Baton Rouge Businesses Choose Our Web Design Services
           </h2>
           <div className="h-1 w-16 bg-amber-500 mx-auto mb-12"></div>
@@ -61,29 +61,29 @@ export default function BatonRougeWebDesignPage() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-slate-50 rounded-lg p-6 border border-slate-200 hover:border-amber-500 transition-all">
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Experience & Expertise</h3>
-              <p className="text-slate-700">Years of experience designing responsive websites for diverse Baton Rouge industries. We know what works and what doesn't.</p>
+            <div className="bg-brand-navy-800 rounded-lg p-6 border border-brand-navy-700 hover:border-brand-gold-500 transition-all">
+              <h3 className="text-xl font-bold text-slate-100 mb-3">Experience & Expertise</h3>
+              <p className="text-slate-300">Years of experience designing responsive websites for diverse Baton Rouge industries. We know what works and what doesn't.</p>
             </div>
-            <div className="bg-slate-50 rounded-lg p-6 border border-slate-200 hover:border-amber-500 transition-all">
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Strategic Design Approach</h3>
-              <p className="text-slate-700">Every design decision is made with your business goals in mind. We create websites that rank, convert, and grow your bottom line.</p>
+            <div className="bg-brand-navy-800 rounded-lg p-6 border border-brand-navy-700 hover:border-brand-gold-500 transition-all">
+              <h3 className="text-xl font-bold text-slate-100 mb-3">Strategic Design Approach</h3>
+              <p className="text-slate-300">Every design decision is made with your business goals in mind. We create websites that rank, convert, and grow your bottom line.</p>
             </div>
-            <div className="bg-slate-50 rounded-lg p-6 border border-slate-200 hover:border-amber-500 transition-all">
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Responsive Web Design</h3>
-              <p className="text-slate-700">Every website we create is mobile-first and fully responsive. Perfect experience on every device, every time.</p>
+            <div className="bg-brand-navy-800 rounded-lg p-6 border border-brand-navy-700 hover:border-brand-gold-500 transition-all">
+              <h3 className="text-xl font-bold text-slate-100 mb-3">Responsive Web Design</h3>
+              <p className="text-slate-300">Every website we create is mobile-first and fully responsive. Perfect experience on every device, every time.</p>
             </div>
-            <div className="bg-slate-50 rounded-lg p-6 border border-slate-200 hover:border-amber-500 transition-all">
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Proven Results</h3>
-              <p className="text-slate-700">Our Baton Rouge clients see increased rankings, more qualified traffic, and higher conversion rates from their websites.</p>
+            <div className="bg-brand-navy-800 rounded-lg p-6 border border-brand-navy-700 hover:border-brand-gold-500 transition-all">
+              <h3 className="text-xl font-bold text-slate-100 mb-3">Proven Results</h3>
+              <p className="text-slate-300">Our Baton Rouge clients see increased rankings, more qualified traffic, and higher conversion rates from their websites.</p>
             </div>
-            <div className="bg-slate-50 rounded-lg p-6 border border-slate-200 hover:border-amber-500 transition-all">
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Complete Solutions</h3>
-              <p className="text-slate-700">From responsive design to ecommerce to SEO—we provide comprehensive services under one trusted partnership.</p>
+            <div className="bg-brand-navy-800 rounded-lg p-6 border border-brand-navy-700 hover:border-brand-gold-500 transition-all">
+              <h3 className="text-xl font-bold text-slate-100 mb-3">Complete Solutions</h3>
+              <p className="text-slate-300">From responsive design to ecommerce to SEO—we provide comprehensive services under one trusted partnership.</p>
             </div>
-            <div className="bg-slate-50 rounded-lg p-6 border border-slate-200 hover:border-amber-500 transition-all">
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Local Understanding</h3>
-              <p className="text-slate-700">Based in Louisiana with deep understanding of Baton Rouge market dynamics and what resonates with local customers.</p>
+            <div className="bg-brand-navy-800 rounded-lg p-6 border border-brand-navy-700 hover:border-brand-gold-500 transition-all">
+              <h3 className="text-xl font-bold text-slate-100 mb-3">Local Understanding</h3>
+              <p className="text-slate-300">Based in Louisiana with deep understanding of Baton Rouge market dynamics and what resonates with local customers.</p>
             </div>
           </div>
         </div>
@@ -102,34 +102,34 @@ export default function BatonRougeWebDesignPage() {
           </p>
 
           <div className="space-y-8">
-            <div className="bg-white rounded-lg p-8 border border-slate-200 hover:border-amber-500 hover:shadow-lg transition-all">
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">Professional Website Development in Baton Rouge</h3>
-              <p className="text-slate-700 mb-4 leading-relaxed">
+            <div className="bg-brand-navy-800 rounded-lg p-8 border border-brand-navy-700 hover:border-brand-gold-500 hover:shadow-lg transition-all">
+              <h3 className="text-2xl font-bold text-slate-100 mb-4">Professional Website Development in Baton Rouge</h3>
+              <p className="text-slate-300 mb-4 leading-relaxed">
                 We create stunning, high-performance websites that represent your Baton Rouge business professionally and convert visitors into customers. Our responsive web design approach ensures your website looks and functions perfectly on every device.
               </p>
               <ul className="space-y-3">
                 <li className="flex gap-3 items-start">
-                  <span className="text-amber-500 font-bold flex-shrink-0">✓</span>
-                  <span className="text-slate-700"><strong>Modern Responsive Design:</strong> Mobile-first approach optimized for phones, tablets, and desktops</span>
+                  <span className="text-brand-gold-500 font-bold flex-shrink-0">✓</span>
+                  <span className="text-slate-300"><strong>Modern Responsive Design:</strong> Mobile-first approach optimized for phones, tablets, and desktops</span>
                 </li>
                 <li className="flex gap-3 items-start">
-                  <span className="text-amber-500 font-bold flex-shrink-0">✓</span>
-                  <span className="text-slate-700"><strong>Professional Appearance:</strong> Beautiful, modern design that builds trust and reflects your brand quality</span>
+                  <span className="text-brand-gold-500 font-bold flex-shrink-0">✓</span>
+                  <span className="text-slate-300"><strong>Professional Appearance:</strong> Beautiful, modern design that builds trust and reflects your brand quality</span>
                 </li>
                 <li className="flex gap-3 items-start">
-                  <span className="text-amber-500 font-bold flex-shrink-0">✓</span>
-                  <span className="text-slate-700"><strong>Conversion Optimization:</strong> Strategic design that guides visitors toward action</span>
+                  <span className="text-brand-gold-500 font-bold flex-shrink-0">✓</span>
+                  <span className="text-slate-300"><strong>Conversion Optimization:</strong> Strategic design that guides visitors toward action</span>
                 </li>
                 <li className="flex gap-3 items-start">
-                  <span className="text-amber-500 font-bold flex-shrink-0">✓</span>
-                  <span className="text-slate-700"><strong>SEO Foundation:</strong> Built-in optimization to help you rank in Google for Baton Rouge keywords</span>
+                  <span className="text-brand-gold-500 font-bold flex-shrink-0">✓</span>
+                  <span className="text-slate-300"><strong>SEO Foundation:</strong> Built-in optimization to help you rank in Google for Baton Rouge keywords</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white rounded-lg p-8 border border-slate-200 hover:border-amber-500 hover:shadow-lg transition-all">
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">Ecommerce Web Design Baton Rouge LA</h3>
-              <p className="text-slate-700 mb-4 leading-relaxed">
+            <div className="bg-brand-navy-800 rounded-lg p-8 border border-brand-navy-700 hover:border-brand-gold-500 hover:shadow-lg transition-all">
+              <h3 className="text-2xl font-bold text-slate-100 mb-4">Ecommerce Web Design Baton Rouge LA</h3>
+              <p className="text-slate-300 mb-4 leading-relaxed">
                 Launch a professional online store that sells 24/7. Our ecommerce web design expertise helps Baton Rouge businesses go online with secure platforms, seamless shopping experiences, and built-in sales optimization.
               </p>
               <ul className="space-y-3">
@@ -152,9 +152,9 @@ export default function BatonRougeWebDesignPage() {
               </ul>
             </div>
 
-            <div className="bg-white rounded-lg p-8 border border-slate-200 hover:border-amber-500 hover:shadow-lg transition-all">
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">SEO Experts in Baton Rouge Louisiana</h3>
-              <p className="text-slate-700 mb-4 leading-relaxed">
+            <div className="bg-brand-navy-800 rounded-lg p-8 border border-brand-navy-700 hover:border-brand-gold-500 hover:shadow-lg transition-all">
+              <h3 className="text-2xl font-bold text-slate-100 mb-4">SEO Experts in Baton Rouge Louisiana</h3>
+              <p className="text-slate-300 mb-4 leading-relaxed">
                 A beautiful website means nothing if customers can't find you. As SEO experts in Baton Rouge Louisiana, we implement comprehensive strategies to increase your visibility in Google search results and attract qualified local traffic.
               </p>
               <ul className="space-y-3">
@@ -224,14 +224,14 @@ export default function BatonRougeWebDesignPage() {
           <div className="bg-gradient-to-r from-slate-900 to-blue-900 text-white rounded-xl p-8 md:p-12">
             <div className="space-y-8">
               <div className="flex gap-6">
-                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-amber-500 flex items-center justify-center font-bold text-slate-900 text-lg">1</div>
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-brand-gold-500 flex items-center justify-center font-bold text-slate-900 text-lg">1</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Consultation & Discovery</h3>
                   <p className="text-blue-100">We meet with you to understand your business, goals, target audience, and competitive landscape. This foundation guides all design decisions.</p>
                 </div>
               </div>
               <div className="flex gap-6">
-                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-amber-500 flex items-center justify-center font-bold text-slate-900 text-lg">2</div>
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-brand-gold-500 flex items-center justify-center font-bold text-slate-900 text-lg">1</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Strategy & Planning</h3>
                   <p className="text-blue-100">We develop a web design strategy including site structure, user experience flow, and SEO approach specific to your Baton Rouge market.</p>
@@ -362,9 +362,9 @@ export default function BatonRougeWebDesignPage() {
           </h2>
           
           <div className="space-y-4">
-            <details className="bg-white rounded-lg p-6 border border-slate-200 cursor-pointer hover:border-amber-500 transition-all">
-              <summary className="font-bold text-slate-900 text-lg">What is responsive web design and why does my Baton Rouge business need it?</summary>
-              <p className="text-slate-700 mt-4">Responsive web design means your website automatically adjusts to look perfect on phones, tablets, and desktops. It's essential because over 60% of web traffic comes from mobile devices. Google also prioritizes mobile-friendly websites in search results. If your Baton Rouge business website isn't responsive, you're losing customers and rankings.</p>
+            <details className="bg-brand-navy-800 rounded-lg p-6 border border-brand-navy-700 cursor-pointer hover:border-brand-gold-500 transition-all">
+              <summary className="font-bold text-slate-100 text-lg">What is responsive web design and why does my Baton Rouge business need it?</summary>
+              <p className="text-slate-300 mt-4">Responsive web design means your website automatically adjusts to look perfect on phones, tablets, and desktops. It's essential because over 60% of web traffic comes from mobile devices. Google also prioritizes mobile-friendly websites in search results. If your Baton Rouge business website isn't responsive, you're losing customers and rankings.</p>
             </details>
 
             <details className="bg-white rounded-lg p-6 border border-slate-200 cursor-pointer hover:border-amber-500 transition-all">

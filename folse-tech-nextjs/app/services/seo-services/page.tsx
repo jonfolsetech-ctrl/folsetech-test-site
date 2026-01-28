@@ -26,15 +26,15 @@ export default function SEOServicesPage() {
       <Breadcrumb items={breadcrumbs} />
       
       {/* Hero Section */}
-      <section className="px-4 md:px-6 py-16 md:py-24 bg-gradient-to-b from-slate-900 to-blue-900">
+      <section className="px-4 md:px-6 py-16 md:py-24 bg-gradient-to-b from-brand-navy to-brand-navy-800">
         <div className="max-w-4xl mx-auto text-center space-y-6">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-100 leading-tight">
             Professional SEO Services
           </h1>
-          <p className="text-lg md:text-xl text-blue-100">
+          <p className="text-lg md:text-xl text-brand-cyan-50">
             Full-service SEO optimization to increase rankings, drive organic traffic, and grow your business online.
           </p>
-          <a href="mailto:jon@folsetech.net" className="inline-block px-8 py-3 bg-amber-500 text-slate-900 font-semibold rounded-lg hover:bg-amber-400 transition-colors">
+          <a href="mailto:jon@folsetech.net" className="inline-block px-8 py-3 bg-brand-gold-500 text-slate-900 font-semibold rounded-lg hover:bg-brand-gold-400 transition-colors">
             Schedule Free SEO Consultation
           </a>
         </div>
@@ -43,19 +43,19 @@ export default function SEOServicesPage() {
       {/* Main Content */}
       <section className="px-4 md:px-6 py-16 md:py-24 max-w-4xl mx-auto">
         <div className="prose prose-lg max-w-none">
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">The Importance of SEO</h2>
-          <p className="text-slate-700 mb-6 text-lg leading-relaxed">
+          <h2 className="text-3xl font-bold text-slate-100 mb-6">The Importance of SEO</h2>
+          <p className="text-slate-300 mb-6 text-lg leading-relaxed">
             Organic search is where most website traffic comes from. If your website doesn't rank for keywords your customers are searching for, you're missing sales opportunities. Our comprehensive SEO services help businesses in Gonzales, Baton Rouge, and Prairieville dominate local search results and attract customers actively seeking their services.
           </p>
 
           <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Our Comprehensive SEO Services</h2>
           
-          <div className="bg-slate-50 rounded-lg p-6 border border-slate-200 my-8">
-            <h3 className="text-2xl font-bold text-slate-900 mb-4">Technical SEO</h3>
+          <div className="bg-brand-navy-800 rounded-lg p-6 border border-brand-navy-700 my-8">
+            <h3 className="text-2xl font-bold text-slate-100 mb-4">Technical SEO</h3>
             <ul className="space-y-3">
               <li className="flex gap-3 items-start">
-                <span className="text-amber-500 flex-shrink-0">◆</span>
-                <span><strong>Site Speed Optimization:</strong> Fast-loading pages rank higher and convert better</span>
+                <span className="text-brand-gold-500 flex-shrink-0">◆</span>
+                <span className="text-slate-300"><strong>Site Speed Optimization:</strong> Fast-loading pages rank higher and convert better</span>
               </li>
               <li className="flex gap-3 items-start">
                 <span className="text-amber-500 flex-shrink-0">◆</span>
@@ -185,24 +185,24 @@ export default function SEOServicesPage() {
           </ul>
 
           <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Our SEO Process</h2>
-          <div className="bg-gradient-to-r from-slate-900 to-blue-900 text-white rounded-xl p-8 my-8">
+          <div className="bg-gradient-to-r from-brand-navy to-brand-cyan-400 text-slate-100 rounded-xl p-8 my-8">
             <div className="space-y-6">
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center font-bold text-slate-900">1</div>
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-brand-gold-500 flex items-center justify-center font-bold text-slate-900">1</div>
                 <div>
                   <h4 className="font-bold text-lg mb-2">SEO Audit</h4>
                   <p className="text-blue-100">Complete analysis of your current SEO performance, technical issues, and opportunities</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center font-bold text-slate-900">2</div>
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-brand-gold-500 flex items-center justify-center font-bold text-slate-900">2</div>
                 <div>
                   <h4 className="font-bold text-lg mb-2">Strategy Development</h4>
                   <p className="text-blue-100">Customized SEO strategy based on industry, competition, and your business goals</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center font-bold text-slate-900">3</div>
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-brand-gold-500 flex items-center justify-center font-bold text-slate-900">3</div>
                 <div>
                   <h4 className="font-bold text-lg mb-2">Implementation</h4>
                   <p className="text-blue-100">Execute on-page, technical, and off-page optimizations according to the strategy</p>
@@ -255,8 +255,8 @@ export default function SEOServicesPage() {
         </div>
 
         {/* CTA */}
-        <div className="mt-16 bg-amber-50 rounded-xl p-8 md:p-12 border-2 border-amber-500 text-center">
-          <h3 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">
+        <div className="mt-16 bg-brand-navy-800 rounded-xl p-8 md:p-12 border-2 border-brand-gold-500 text-center">
+          <h3 className="text-2xl md:text-3xl font-bold text-slate-100 mb-4">
             Ready to Dominate Local Search Results?
           </h3>
           <p className="text-slate-700 mb-8 text-lg">

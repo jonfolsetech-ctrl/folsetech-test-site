@@ -34,7 +34,7 @@ export default function Footer() {
                 <ul className="space-y-2.5 text-sm">
                   {section.links.map(link => (
                     <li key={link}>
-                      <a href="#" className="text-slate-400 hover:text-blue-400 transition-colors duration-200">{link}</a>
+                      <a href="#" className="text-slate-400 hover:text-brand-cyan-400 transition-colors duration-200">{link}</a>
                     </li>
                   ))}
                 </ul>
@@ -42,7 +42,7 @@ export default function Footer() {
               {section.email && (
                 <>
                   <p className="text-slate-400 text-sm mb-3 leading-relaxed">{section.content}</p>
-                  <a href={`mailto:${section.email}`} className="text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium">
+                  <a href={`mailto:${section.email}`} className="text-brand-cyan-400 hover:text-brand-cyan-300 transition-colors text-sm font-medium">
                     {section.email}
                   </a>
                 </>

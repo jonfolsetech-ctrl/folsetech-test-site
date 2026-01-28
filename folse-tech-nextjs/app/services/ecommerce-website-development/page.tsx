@@ -126,7 +126,7 @@ export default function EcommercePage() {
           <div className="bg-gradient-to-r from-slate-900 to-blue-900 text-white rounded-xl p-8 my-8">
             <div className="space-y-6">
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center font-bold text-slate-900">1</div>
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-brand-gold-500 flex items-center justify-center font-bold text-slate-900">1</div>
                 <div>
                   <h4 className="font-bold text-lg mb-2">Discovery & Strategy</h4>
                   <p className="text-blue-100">We understand your business model, target customers, and sales goals to create the right ecommerce strategy.</p>
@@ -189,7 +189,7 @@ export default function EcommercePage() {
         </div>
 
         {/* CTA */}
-        <div className="mt-16 bg-amber-50 rounded-xl p-8 md:p-12 border-2 border-amber-500 text-center">
+        <div className="mt-16 bg-brand-navy-800 rounded-xl p-8 md:p-12 border-2 border-brand-gold-500 text-center">
           <h3 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">
             Ready to Launch Your Ecommerce Website?
           </h3>
