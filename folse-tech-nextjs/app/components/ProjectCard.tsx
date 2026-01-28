@@ -9,7 +9,7 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ title, tech, description, imageUrl }: ProjectCardProps) {
   return (
-    <div className="group bg-white border border-slate-200 rounded-2xl overflow-hidden hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300 hover:-translate-y-1">
+    <div className="group bg-brand-navy-800 border border-brand-navy-700 rounded-2xl overflow-hidden hover:shadow-xl hover:shadow-slate-200/20 transition-all duration-300 hover:-translate-y-1">
       <div className="w-full h-48 md:h-56 bg-gradient-to-br from-blue-500 to-blue-600 relative overflow-hidden">
         {imageUrl && (
           <img

@@ -38,10 +38,10 @@ export default function LouisianaWebDesignPage() {
       <Breadcrumb items={breadcrumbs} />
 
       {/* Hero Section */}
-      <section className="px-4 md:px-6 py-16 md:py-28 bg-gradient-to-b from-slate-900 to-blue-900">
+      <section className="px-4 md:px-6 py-16 md:py-28 bg-gradient-to-b from-brand-navy to-brand-navy-800">
         <div className="max-w-4xl mx-auto">
           <div className="text-center space-y-6 md:space-y-8">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-slate-100 leading-tight">
               Professional Web Design for Baton Rouge, Gonzales & the River Parishes
             </h1>
             <p className="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
@@ -60,9 +60,9 @@ export default function LouisianaWebDesignPage() {
       </section>
 
       {/* Service Regions Overview */}
-      <section className="px-4 md:px-6 py-16 md:py-24 bg-white border-t-4 border-amber-500">
+      <section className="px-4 md:px-6 py-16 md:py-24 bg-brand-navy-800 border-t-4 border-brand-gold-500">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-4 text-center">
             Web Design Services Across South Louisiana
           </h2>
           <div className="h-1 w-16 bg-amber-500 mx-auto mb-12"></div>
@@ -72,10 +72,10 @@ export default function LouisianaWebDesignPage() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-gradient-to-br from-blue-50 to-slate-50 rounded-lg p-6 border border-slate-200 hover:border-amber-500 transition-all">
-              <h3 className="text-lg font-bold text-slate-900 mb-3">Baton Rouge</h3>
-              <p className="text-slate-700 mb-3">Louisiana's capital and the region's commerce hub. We serve diverse Baton Rouge businesses with responsive web design Baton Rouge LA and local SEO services.</p>
-              <p className="text-sm text-slate-600"><strong>Focus:</strong> web design Baton Rouge LA, ecommerce websites Baton Rouge LA, SEO services</p>
+            <div className="bg-brand-navy-800 rounded-lg p-6 border border-brand-navy-700 hover:border-brand-gold-500 transition-all">
+              <h3 className="text-lg font-bold text-slate-100 mb-3">Baton Rouge</h3>
+              <p className="text-slate-300 mb-3">Louisiana's capital and the region's commerce hub. We serve diverse Baton Rouge businesses with responsive web design Baton Rouge LA and local SEO services.</p>
+              <p className="text-sm text-slate-400"><strong>Focus:</strong> web design Baton Rouge LA, ecommerce websites Baton Rouge LA, SEO services</p>
             </div>
 
             <div className="bg-gradient-to-br from-blue-50 to-slate-50 rounded-lg p-6 border border-slate-200 hover:border-amber-500 transition-all">
@@ -112,9 +112,9 @@ export default function LouisianaWebDesignPage() {
       </section>
 
       {/* Why Choose Section */}
-      <section className="px-4 md:px-6 py-16 md:py-24 bg-gradient-to-b from-slate-50 to-white">
+      <section className="px-4 md:px-6 py-16 md:py-24 bg-gradient-to-b from-brand-navy-800 to-brand-navy">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-4 text-center">
             Why South Louisiana Businesses Choose Folse Tech
           </h2>
           <div className="h-1 w-16 bg-amber-500 mx-auto mb-12"></div>
@@ -124,12 +124,12 @@ export default function LouisianaWebDesignPage() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-lg p-6 border border-slate-200 hover:border-amber-500 transition-all hover:shadow-md">
-              <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-start gap-3">
-                <span className="text-amber-500 text-2xl">🎯</span>
+            <div className="bg-brand-navy-800 rounded-lg p-6 border border-brand-navy-700 hover:border-brand-gold-500 transition-all hover:shadow-md">
+              <h3 className="text-xl font-bold text-slate-100 mb-3 flex items-start gap-3">
+                <span className="text-brand-gold-500 text-2xl">🎯</span>
                 <span>Deep Local Expertise</span>
               </h3>
-              <p className="text-slate-700">We understand the Baton Rouge, Gonzales, Prairieville, and River Parishes markets. We know what resonates with Louisiana customers and how to position your business for success.</p>
+              <p className="text-slate-300">We understand the Baton Rouge, Gonzales, Prairieville, and River Parishes markets. We know what resonates with Louisiana customers and how to position your business for success.</p>
             </div>
 
             <div className="bg-white rounded-lg p-6 border border-slate-200 hover:border-amber-500 transition-all hover:shadow-md">

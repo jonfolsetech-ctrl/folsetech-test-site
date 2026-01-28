@@ -36,12 +36,12 @@ export default function MobileNav({ navLinks }: MobileNavProps) {
 
       {isOpen && (
         <div className="absolute top-16 left-0 right-0 bg-gradient-to-r from-slate-900 to-blue-900 shadow-lg z-40">
-          <div className="px-6 py-4 space-y-3 border-t-4 border-amber-500">
+          <div className="px-6 py-4 space-y-3 border-t-4 border-brand-gold-500">
             {navLinks.map(link => (
               <a
                 key={link.href}
                 href={link.href}
-                className="block text-blue-100 hover:text-amber-400 transition-colors font-medium text-sm uppercase tracking-wide py-2"
+                className="block text-brand-cyan-100 hover:text-brand-gold-400 transition-colors font-medium text-sm uppercase tracking-wide py-2"
                 onClick={handleClose}
               >
                 {link.label}
@@ -50,7 +50,7 @@ export default function MobileNav({ navLinks }: MobileNavProps) {
             <a
               href="tel:+1-225-313-1914"
               onClick={handleClose}
-              className="block w-full text-left bg-amber-500 text-slate-900 hover:bg-amber-400 rounded-lg font-semibold px-4 py-2 transition-colors mt-3 text-center"
+              className="block w-full text-left bg-brand-gold-500 text-slate-900 hover:bg-brand-gold-400 rounded-lg font-semibold px-4 py-2 transition-colors mt-3 text-center"
             >
               Call Now
             </a>

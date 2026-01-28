@@ -20,7 +20,7 @@ export default function Blog() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6 md:mb-8 text-slate-900">Folsetech Blog</h1>
         <div className="grid gap-4 md:gap-6">
           {posts.map(post => (
-            <a key={post.slug} href={`/blog/${post.slug}`} className="block p-4 md:p-6 border border-gray-200 hover:border-blue-600 hover:shadow-md rounded-lg transition bg-white">
+            <a key={post.slug} href={`/blog/${post.slug}`} className="block p-4 md:p-6 border border-brand-navy-700 hover:border-brand-cyan-400 hover:shadow-md rounded-lg transition bg-brand-navy-800">
               <h2 className="text-lg md:text-2xl font-bold text-slate-900 hover:text-blue-600 mb-2">{post.title}</h2>
               <p className="text-sm md:text-base text-slate-600 mb-2 md:mb-3">{post.excerpt}</p>
               {post.date && <p className="text-xs md:text-sm text-slate-500">Published {post.date}</p>}

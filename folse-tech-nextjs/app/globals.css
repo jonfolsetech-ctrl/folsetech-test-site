@@ -9,12 +9,25 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
 
+  :root {
+    --brand-navy: #0f2740;
+    --brand-navy-800: #0a2030;
+    --brand-panel: #081724;
+    --text-strong: #f8fafc;
+    --text-muted: #cbd5e1;
+    --brand-gold: #f2ad10;
+    --brand-gold-600: #d6990f;
+    --brand-cyan: #2fb1ff;
+  }
+
   body {
     @apply font-sans antialiased;
     /* Disable tap highlight on mobile */
     -webkit-tap-highlight-color: transparent;
     /* Improve rendering performance */
     text-rendering: optimizeSpeed;
+    background-color: var(--brand-navy);
+    color: var(--text-strong);
   }
 
   /* CSS containment for better layout performance */
@@ -30,31 +43,37 @@
 
 @layer components {
   .btn-primary {
-    @apply px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-all duration-300 shadow-md hover:shadow-lg will-change-transform;
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-300 shadow-md hover:shadow-lg will-change-transform;
+    background-color: var(--brand-gold);
+    color: #0f1724;
+  }
+  .btn-primary:hover {
+    background-color: var(--brand-gold-600);
   }
 
   .card-hover {
-    @apply transition-all duration-300 hover:shadow-xl hover:shadow-slate-200/50 hover:-translate-y-1;
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
   }
 
   .gradient-text {
-    @apply bg-gradient-to-r from-blue-600 to-yellow-500 bg-clip-text text-transparent;
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(90deg, var(--brand-cyan), var(--brand-gold));
   }
 
-  .bg-grid-slate-100 {
+  .bg-grid-navy {
     background-image: 
-      linear-gradient(to right, rgb(241 245 249 / 0.4) 1px, transparent 1px),
-      linear-gradient(to bottom, rgb(241 245 249 / 0.4) 1px, transparent 1px);
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
     background-size: 40px 40px;
   }
 
-  .bg-grid-white {
+  .bg-grid-faint {
     background-image: 
-      linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+      linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
     background-size: 40px 40px;
   }
-}
+} 
 
 /* Custom scrollbar - modern design */
 ::-webkit-scrollbar {
@@ -62,21 +81,84 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f5f9;
+  background: #071221;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
+  background: #2b3b50;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
-}
+  background: #3d556d;
+} 
 
 /* Smooth transitions */
 * {
   @apply transition-colors duration-200;
+}
+
+/* Theme overrides: remap common light utilities to dark theme colors so existing classes adopt brand palette */
+body .bg-white {
+  background-color: var(--brand-navy-800) !important;
+  color: var(--text-strong) !important;
+}
+
+body .bg-slate-50 {
+  background-color: var(--brand-navy-800) !important;
+  color: var(--text-strong) !important;
+}
+
+body .border-slate-200 {
+  border-color: rgba(255,255,255,0.04) !important;
+}
+
+body .text-slate-900 {
+  color: var(--text-strong) !important;
+}
+
+body .text-slate-700 {
+  color: #cbd5e1 !important;
+}
+
+body .text-blue-100 {
+  color: var(--brand-cyan) !important;
+}
+
+/* Map amber utilities to brand gold and adjust blue utilities to brand cyan */
+body .text-amber-500 {
+  color: var(--brand-gold) !important;
+}
+
+body .bg-amber-50 {
+  /* subtle gold wash for light accent panels */
+  background-color: rgba(242,173,16,0.06) !important;
+  color: var(--text-strong) !important;
+}
+
+body .bg-amber-500 {
+  background-color: var(--brand-gold) !important;
+  color: #0f1724 !important;
+}
+
+body .border-amber-500 {
+  border-color: var(--brand-gold) !important;
+}
+
+body .hover\:border-amber-500:hover {
+  border-color: var(--brand-gold) !important;
+}
+
+body .hover\:bg-amber-400:hover {
+  background-color: var(--brand-gold-600) !important;
+}
+
+body .text-blue-600 {
+  color: var(--brand-cyan) !important;
+}
+
+body .bg-blue-100 {
+  background-color: var(--brand-cyan-50) !important;
 }
 
 /* Optimize animations performance */

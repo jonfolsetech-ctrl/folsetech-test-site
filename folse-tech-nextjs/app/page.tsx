@@ -129,21 +129,21 @@ const projects = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-brand-navy">
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 md:pt-40 pb-20 md:pb-32 px-4 md:px-6 bg-gradient-to-br from-blue-600 via-blue-600 to-yellow-500 relative overflow-hidden">
+      <section className="pt-32 md:pt-40 pb-20 md:pb-32 px-4 md:px-6 bg-gradient-to-br from-brand-navy via-brand-cyan-400 to-brand-gold-500 relative overflow-hidden">
         {/* Background decoration */}
-        <div className="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] -z-10"></div>
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-100 rounded-full blur-3xl opacity-30 -z-10"></div>
-        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-purple-100 rounded-full blur-3xl opacity-30 -z-10"></div>
+        <div className="absolute inset-0 bg-grid-navy [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] -z-10"></div>
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-cyan-50 rounded-full blur-3xl opacity-30 -z-10"></div>
+        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-brand-gold-50 rounded-full blur-3xl opacity-30 -z-10"></div>
         
         <div className="max-w-6xl mx-auto">
           <div className="text-center space-y-6 md:space-y-8">
-            <div className="inline-flex items-center gap-2 px-4 md:px-5 py-2 bg-white border border-blue-200 rounded-full shadow-sm">
-              <div className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></div>
-              <span className="text-slate-700 font-medium text-xs md:text-sm">Serving Louisiana Businesses</span>
+            <div className="inline-flex items-center gap-2 px-4 md:px-5 py-2 bg-brand-navy-800 border border-brand-navy-700 rounded-full shadow-sm">
+              <div className="w-2 h-2 bg-brand-cyan-400 rounded-full animate-pulse"></div>
+              <span className="text-slate-300 font-medium text-xs md:text-sm">Serving Louisiana Businesses</span>
             </div>
             <div className="space-y-4 md:space-y-6">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-tight drop-shadow-lg">
@@ -156,12 +156,12 @@ export default function Home() {
             </div>
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center pt-4 md:pt-8">
               <a href="mailto:jon@folsetech.net" className="inline-flex items-center justify-center">
-                <Button size="lg" className="bg-blue-600 text-white hover:bg-blue-700 font-medium w-full sm:w-auto shadow-lg shadow-blue-600/30 hover:shadow-xl hover:shadow-blue-600/40 transition-all duration-300">
+                <Button size="lg" className="bg-brand-gold-500 text-slate-900 hover:bg-brand-gold-600 font-medium w-full sm:w-auto shadow-lg shadow-brand-gold-500/30 hover:shadow-xl hover:shadow-brand-gold-500/40 transition-all duration-300">
                   Schedule Free Consultation
                 </Button>
               </a>
               <a href="#services" className="inline-flex items-center justify-center">
-                <Button variant="outline" size="lg" className="border-2 border-slate-300 text-slate-700 hover:bg-slate-50 hover:border-slate-400 w-full sm:w-auto font-medium transition-all duration-300">
+                <Button variant="outline" size="lg" className="border-2 border-brand-navy-700 text-slate-300 hover:bg-brand-navy-800 hover:border-brand-navy-700 w-full sm:w-auto font-medium transition-all duration-300">
                   View Services
                 </Button>
               </a>
@@ -173,19 +173,19 @@ export default function Home() {
       <HomeClient features={features} projects={projects} />
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-4 md:px-6 bg-gradient-to-br from-blue-600 via-blue-600 to-yellow-500 relative overflow-hidden">
-        <div className="absolute inset-0 bg-grid-white/[0.05] -z-10"></div>
+      <section className="py-16 md:py-24 px-4 md:px-6 bg-gradient-to-br from-brand-navy via-brand-cyan-400 to-brand-gold-500 relative overflow-hidden">
+        <div className="absolute inset-0 bg-grid-faint/[0.06] -z-10"></div>
         <div className="max-w-4xl mx-auto text-center space-y-6 md:space-y-8">
-          <h2 className="text-3xl md:text-5xl font-bold text-white">Ready to Transform Your Louisiana Business Online?</h2>
-          <p className="text-base md:text-xl text-blue-100 max-w-2xl mx-auto leading-relaxed">Schedule a free consultation with our team. We'll assess your current online presence, discuss your business goals, and recommend a tailored web design and SEO strategy that drives real results.</p>
+          <h2 className="text-3xl md:text-5xl font-bold text-slate-100">Ready to Transform Your Louisiana Business Online?</h2>
+          <p className="text-base md:text-xl text-brand-cyan-50 max-w-2xl mx-auto leading-relaxed">Schedule a free consultation with our team. We'll assess your current online presence, discuss your business goals, and recommend a tailored web design and SEO strategy that drives real results.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <a href="mailto:jon@folsetech.net">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50 font-medium text-base md:text-lg px-8 md:px-10 py-5 md:py-6 w-full sm:w-auto shadow-xl hover:shadow-2xl transition-all duration-300">
+              <Button size="lg" className="bg-brand-gold-500 text-slate-900 hover:bg-brand-gold-600 font-medium text-base md:text-lg px-8 md:px-10 py-5 md:py-6 w-full sm:w-auto shadow-xl hover:shadow-2xl transition-all duration-300">
                 Schedule Your Free Consultation
               </Button>
             </a>
             <a href="tel:+1-225-000-0000">
-              <Button variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 font-medium text-base md:text-lg px-8 md:px-10 py-5 md:py-6 w-full sm:w-auto transition-all duration-300">
+              <Button variant="outline" size="lg" className="border-2 border-brand-gold-500 text-brand-gold-500 hover:bg-brand-gold-50 hover:text-brand-gold-600 font-medium text-base md:text-lg px-8 md:px-10 py-5 md:py-6 w-full sm:w-auto transition-all duration-300">
                 Call Us Today
               </Button>
             </a>

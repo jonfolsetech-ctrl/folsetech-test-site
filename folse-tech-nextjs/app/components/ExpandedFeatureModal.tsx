@@ -35,7 +35,7 @@ export default function ExpandedFeatureModal({
           </div>
           <button
             onClick={onClose}
-            className="text-white hover:text-amber-500 text-3xl leading-none"
+            className="text-white hover:text-brand-gold-500 text-3xl leading-none"
           >
             ×
           </button>
@@ -63,7 +63,7 @@ export default function ExpandedFeatureModal({
             <h3 className="text-2xl font-bold text-slate-900 mb-6">Key Highlights</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {content.features.map((feature, idx) => (
-                <div key={idx} className="border-l-4 border-amber-500 pl-4">
+                <div key={idx} className="border-l-4 border-brand-gold-500 pl-4">
                   <h4 className="text-lg font-bold text-slate-900 mb-2">
                     {feature.title}
                   </h4>
@@ -93,19 +93,19 @@ export default function ExpandedFeatureModal({
           </div>
 
           {/* CTA */}
-          <div className="border-t-2 border-amber-500 pt-6">
+          <div className="border-t-2 border-brand-gold-500 pt-6">
             <p className="text-base text-slate-600 mb-4 font-light">
               {content.cta}
             </p>
             <div className="flex gap-4">
               <a href="mailto:jon@folsetech.net">
-                <button className="px-6 py-3 bg-amber-500 text-slate-900 font-semibold rounded-lg hover:bg-amber-400 transition-colors">
+                <button className="px-6 py-3 bg-brand-gold-500 text-slate-900 font-semibold rounded-lg hover:bg-brand-gold-400 transition-colors">
                   Get Started
                 </button>
               </a>
               <button
                 onClick={onClose}
-                className="px-6 py-3 border-2 border-slate-300 text-slate-900 font-semibold rounded-lg hover:border-amber-500 transition-colors"
+                className="px-6 py-3 border-2 border-slate-700 text-slate-100 font-semibold rounded-lg hover:border-brand-gold-500 transition-colors"
               >
                 Close
               </button>

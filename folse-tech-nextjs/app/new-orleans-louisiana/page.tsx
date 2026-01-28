@@ -57,7 +57,7 @@ export default function NewOrleansPage() {
             We understand New Orleans search intent and local competition. That's why our sites are built with structured data, clean code, and city-specific SEO signals that help your business appear before competitors.
           </p>
 
-          <div className="bg-amber-50 border-2 border-amber-500 rounded-lg p-6 md:p-8 text-center mt-12">
+          <div className="bg-brand-navy-800 border-2 border-brand-gold-500 rounded-lg p-6 md:p-8 text-center mt-12">
             <p className="text-lg font-semibold text-slate-900 mb-4">
               📧 Contact Jon Folse at <a href="mailto:jon@folsetech.net" className="text-blue-600 hover:text-amber-600">jon@folsetech.net</a> to grow your online visibility in New Orleans, LA.
             </p>
